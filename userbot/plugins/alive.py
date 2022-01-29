@@ -46,10 +46,10 @@ async def amireallyalive(event):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
     ALIVE_TEXT = (
-        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ❤️‍🔥**"
+        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥userbot ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ❤️‍🔥**"
     )
     CAT_IMG = (
-        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
+        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/3c9d85bab520ff82391f2.jpg"
     )
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = cat_caption.format(
@@ -88,10 +88,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} ᴜᴘᴛɪᴍᴇ :** `{uptime}`
 **{EMOJI} ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{telever}`
 **{EMOJI} ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{catver}`
-**{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`
-**{EMOJI} ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ:** [ᴡᴀʀᴜꜱᴇʀʙᴏᴛ](https://t.me/waruserbot)
-**{EMOJI} ᴄʀᴇᴀᴛᴏʀ :** [Abhishek 🇮🇳](https://t.me/xAbhish3k)
-**{EMOJI} ʀᴇᴘᴏ :** [waruserbot](https://Github.com/xAbhish3k/Waruserbot)"""
+**{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`"""
 
 @catub.cat_cmd(
     pattern="ialive$",
